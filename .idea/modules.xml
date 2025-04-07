@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Desktop.iml" filepath="$PROJECT_DIR$/Desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/Exercicio10/Exercicio10.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/Exercicio10/Exercicio10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/Exercicio9/Exercicio9.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/Exercicio9/Exercicio9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOAbstracao/JavaOOAbstracao.iml" filepath="$PROJECT_DIR$/JavaOOAbstracao/JavaOOAbstracao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova1/ListaNova1.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova1/ListaNova1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova2/ListaNova2.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova2/ListaNova2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova3/ListaNova3.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova3/ListaNova3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova4/ListaNova4.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova4/ListaNova4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova5/ListaNova5.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova5/ListaNova5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova6/ListaNova6.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova6/ListaNova6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/Prova/Prova.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/Prova/Prova.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ProvaEtapa2/ProvaEtapa2.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ProvaEtapa2/ProvaEtapa2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOEncapsulamento/ProvaEtapa3/ProvaEtapa3.iml" filepath="$PROJECT_DIR$/JavaOOEncapsulamento/ProvaEtapa3/ProvaEtapa3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaOOAbstracao/untitled/untitled.iml" filepath="$PROJECT_DIR$/JavaOOAbstracao/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>

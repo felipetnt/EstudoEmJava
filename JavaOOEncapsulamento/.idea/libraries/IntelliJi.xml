@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="IntelliJi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ListaNova2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ListaNova3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ProvaEtapa3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Prova.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ProvaEtapa2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

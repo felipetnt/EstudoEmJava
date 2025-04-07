@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JavaOOEncapsulamento">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/JavaOOEncapsulamento/ProvaEtapa3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaOOEncapsulamento/ListaNova3.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaOOEncapsulamento/Prova.zip!/" />
+      <root url="jar://$PROJECT_DIR$/JavaOOEncapsulamento/ProvaEtapa2.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
