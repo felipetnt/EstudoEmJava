@@ -4,6 +4,7 @@ public class Carro {
     private String nome;
     private String marca;
     private int cavalos;
+    public Object getPlaca;
 
     public String getPlaca() {
         return placa;
@@ -56,5 +57,12 @@ public class Carro {
             }
         }
         return false;
+    }
+    @Override
+    public String toString() {
+        return "\nDetalhes carro: \n" + 
+            placa + "\n Nome: " + nome + 
+            "\n Marca: " + marca + 
+            "\n Cavalos: " + cavalos;
     }
 }
