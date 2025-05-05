@@ -1,4 +1,4 @@
-package JavaOOPolimorfismo.PlacaCadastro;
+package JavaOOPolimorfismo.TeacherManipulation;
 
 import java.util.Scanner;
 public class Leitura {

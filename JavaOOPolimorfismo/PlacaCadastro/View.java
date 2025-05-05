@@ -1,3 +1,5 @@
+package JavaOOPolimorfismo.PlacaCadastro;
+
 public class View {
     public static Carro lerCarro(){
         Carro carro = new Carro();
@@ -14,9 +16,26 @@ public class View {
     
     public static ServiceCarros lerConcessionaria(){
         ServiceCarros concessionaria = new ServiceCarros();
+        Carro car = new Carro();
+        boolean isIgual = false;
         boolean continuar;
         do{
-            concessionaria.carros.add(lerCarro());
+            do{
+                car = lerCarro();
+                for(int i = 0; i < concessionaria.carros.size(); i++){
+                    if(car.equals(concessionaria.carros.get(i))){
+                        isIgual = true;
+                        break;
+                    } else {
+                        isIgual = false;
+                    }
+                }
+                if(isIgual == true){
+                    System.out.println("Voce ja inseriu esse carro antes, por favor insira um carro novo.");
+                }
+            }while(isIgual);
+
+            concessionaria.carros.add(car);
             continuar = Leitura.lerContinue();
             if(continuar){
                 System.out.println("Voce escolheu inserir mais um carro! Segue o questionario com suas informacoes: \n");
