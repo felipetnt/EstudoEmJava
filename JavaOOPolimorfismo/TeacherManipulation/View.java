@@ -2,7 +2,7 @@ package JavaOOPolimorfismo.TeacherManipulation;
 
 public class View {
 
-    public Professor lerProfessor(){
+    public static Professor lerProfessor(){
         Professor professor = new Professor();
         String nome = Leitura.lerString("Insira seu nome: ");
         professor.setNome(nome);
@@ -15,7 +15,21 @@ public class View {
         return professor;
     }
 
-    
+    public static School lerEscola(){
+        School escola = new School();
+        boolean continuar;
+        do{
+            Professor professor = lerProfessor();
+            if(!escola.isIgual(professor)){
+                escola.professores.add(professor);
+                System.out.println("Professor cadastrado com sucesso!");
+            } else {
+                System.out.println("Professor já cadastrado!");
+            }
+            continuar = Leitura.lerContinue();
+        } while(continuar);
+        return escola;
+    }
 
 
 }

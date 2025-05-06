@@ -43,11 +43,21 @@ public class Professor {
         return false;
     }
 
+    public boolean indicarSalario(double salario){
+        if(getSalario() > salario){
+            return true;
+        }
+        return false;
+        
+    }
+
     @Override
     public boolean equals(Object obj) {
         Professor o = (Professor) obj;
         return getNome().equals(o.getNome()) && getTitulacao().equals(o.getTitulacao()) && getSalario() == o.getSalario() && getMatricula().equals(o.getMatricula());
     }
     
-    
+    public String toString() {
+        return "\nProfessor: \nNome: " + nome + "\nTitulacao:" + titulacao + "\nSalario:" + salario + "\nMatricula:" + matricula + "]";
+    }
 }
